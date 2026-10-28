@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-10-21T03:53:22.603Z",
+  "runs": 2,
+  "calls": 20,
+  "models": [
+    "gemini-3.5-flash-lite"
+  ],
+  "promptVersions": [
+    "2026-10-20.5"
+  ],
+  "accuracy": {
+    "callType": {
+      "ok": 40,
+      "of": 40
+    },
+    "outcome": {
+      "ok": 40,
+      "of": 40
+    },
+    "rep": {
+      "ok": 40,
+      "of": 40
+    },
+    "quotesVerified": {
+      "ok": 665,
+      "of": 667
+    }
+  },
+  "consistency": {
+    "callType": {
+      "ok": 20,
+      "of": 20
+    },
+    "outcome": {
+      "ok": 20,
+      "of": 20
+    },
+    "steps": {
+      "ok": 268,
+      "of": 300
+    },
+    "scoreSpreadAvg": 0.9,
+    "scoreSpreadMax": 3
+  }
+}

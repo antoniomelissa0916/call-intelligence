@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+/*
+ * PestLaunch OS visual language: Apple-style light UI, grey app canvas, white rounded
+ * cards, system blue for actions, semantic red/orange/green for metrics.
+ */
+@theme {
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", var(--font-inter), "Segoe UI", system-ui, sans-serif;
+  --font-display: -apple-system, BlinkMacSystemFont, "SF Pro Display", var(--font-inter), "Segoe UI", system-ui, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, monospace;
+
+  --color-canvas: #f2f2f5;
+  --color-sidebar: #f7f7f9;
+  --color-surface: #ffffff;
+  --color-sunken: #f5f5f7;
+  --color-hairline: #e6e6eb;
+  --color-hairline-strong: #d8d8de;
+
+  --color-ink: #1d1d1f;
+  --color-ink-2: #515154;
+  --color-ink-3: #86868b;
+  --color-ink-4: #aeaeb2;
+
+  --color-blue: #0a7aff;
+  --color-blue-ink: #0060df;
+  --color-blue-soft: #e8f1ff;
+
+  --color-green: #28a745;
+  --color-green-ink: #1e7f37;
+  --color-green-soft: #e7f6ea;
+
+  --color-orange: #f59e0b;
+  --color-orange-ink: #b45309;
+  --color-orange-soft: #fdf3e1;
+
+  --color-red: #ff3b30;
+  --color-red-ink: #c8241b;
+  --color-red-soft: #fdeceb;
+
+  --color-gold: #c9971c;
+  --color-gold-ink: #8a6510;
+  --color-gold-soft: #fbf3dc;
+
+  --color-violet: #7c5cff;
+  --color-violet-soft: #f0ecff;
+
+  --color-rep: #0a7aff;
+  --color-customer: #6e6e73;
+
+  --radius-card: 16px;
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.04), 0 1px 1px rgb(0 0 0 / 0.02);
+  --shadow-pop: 0 10px 30px -8px rgb(0 0 0 / 0.18), 0 2px 6px rgb(0 0 0 / 0.06);
+
+  --animate-pulse-soft: pulse-soft 1.6s ease-in-out infinite;
+  @keyframes pulse-soft {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.45;
+    }
+  }
+}
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "cv11", "ss01";
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-blue) 22%, transparent);
+}
+
+/* Thin, unobtrusive scrollbars like macOS */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c7c7cc transparent;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-blue);
+  outline-offset: 2px;
+  border-radius: 6px;
+}

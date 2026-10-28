@@ -1,0 +1,25 @@
+{
+  "_about": "Hand labels for the 20 sample calls, written by reading every transcript. Where a call is genuinely ambiguous, every defensible answer is listed. Used by `npm run eval`.",
+  "calls": {
+    "CALL-001": { "type": ["retention"], "outcome": ["cancelled"], "rep": "Christian", "note": "Cancels because pests are gone; rep accepts without a real save attempt." },
+    "CALL-002": { "type": ["new_customer"], "outcome": ["follow_up"], "rep": "Kristen", "note": "Mice quote $999 anchor -> $649 + $59/mo; customer must check with husband who called another company; price held until Monday." },
+    "CALL-003": { "type": ["other", "scheduling"], "outcome": ["resolved"], "rep": "Griffin", "note": "Customer asks if tech finished; rep explains 70% exclusion done, return next Thursday. Single-speaker diarization." },
+    "CALL-004": { "type": ["scheduling", "other"], "outcome": ["resolved"], "rep": "Griffin", "note": "Customer asks why no visit; barrier materials pending, visit on the 30th; new burrows noted." },
+    "CALL-005": { "type": ["scheduling"], "outcome": ["resolved"], "rep": "Griffin", "note": "Moves today's clean-up visit to 12-4." },
+    "CALL-006": { "type": ["reservice"], "outcome": ["resolved"], "rep": "Griffin", "note": "Mice upstairs; company never scheduled quarterly visits (setup error). Tech tomorrow 11-3. Baby in home." },
+    "CALL-007": { "type": ["scheduling"], "outcome": ["resolved"], "rep": "Griffin", "note": "Outbound follow-up scheduling; customer complains tech wore camera glasses; rep promises to address." },
+    "CALL-008": { "type": ["reservice", "scheduling", "other", "new_customer"], "outcome": ["resolved", "booked"], "rep": "Griffin", "note": "Landlord customer, hornet nest at a rental; tech tomorrow 9-12." },
+    "CALL-009": { "type": ["scheduling"], "outcome": ["resolved"], "rep": "Kevin", "note": "Outbound: schedules metal work Monday 12-4. Single-speaker diarization." },
+    "CALL-010": { "type": ["new_customer"], "outcome": ["booked", "follow_up"], "rep": "Griffin", "note": "Outbound to lead; mice/squirrels + wasps; inspection Fri 1-4; competitor (Catseye) visiting tomorrow; no price given." },
+    "CALL-011": { "type": ["scheduling", "other"], "outcome": ["resolved"], "rep": "Griffin", "note": "Courtesy call through call screening: tech two minutes out." },
+    "CALL-012": { "type": ["new_customer"], "outcome": ["booked"], "rep": "Kristen", "note": "Mice; free inspection Thu Sep 24 1-4." },
+    "CALL-013": { "type": ["new_customer", "scheduling"], "outcome": ["booked", "resolved"], "rep": "Mike", "note": "Customer agreed by email; schedules first rodent visit today + follow-up, takes card. Rep reads CVV back aloud." },
+    "CALL-014": { "type": ["new_customer"], "outcome": ["booked"], "rep": "Britney", "note": "Mice/flying squirrels; exclusion quoted $649; inspection Wed 30th 9-12." },
+    "CALL-015": { "type": ["new_customer"], "outcome": ["booked"], "rep": "Elijah", "note": "German roaches; flush $225; booked Sat 26th, will try for 19th." },
+    "CALL-016": { "type": ["new_customer"], "outcome": ["booked"], "rep": "Elijah", "note": "Roaches + silverfish; $225 anchor -> $179 + $57.50/mo bi-monthly; Tue Sep 22 1-3." },
+    "CALL-017": { "type": ["new_customer"], "outcome": ["booked"], "rep": "Elijah", "note": "Fire ants in walls; $50 inspection tomorrow 10-12, credited to treatment." },
+    "CALL-018": { "type": ["new_customer"], "outcome": ["booked"], "rep": "Elijah", "note": "Former customer's daycare (commercial); free inspection Fri 8-10." },
+    "CALL-019": { "type": ["new_customer"], "outcome": ["booked"], "rep": "Elijah", "note": "Outbound to Google lead; rodent noises; free inspection Mon 2:30-4:30 + waitlist." },
+    "CALL-020": { "type": ["new_customer"], "outcome": ["booked"], "rep": "Elijah", "note": "Ants after carpet; declines plan ($250 -> $179 + $57.50/mo); books one-time $225 with 45-day warranty, Tue Sep 29 8-10." }
+  }
+}
